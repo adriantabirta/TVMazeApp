@@ -12,6 +12,7 @@
 		3375CB6F1F893AD800D18382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3375CB6D1F893AD800D18382 /* Main.storyboard */; };
 		3375CB711F893AD800D18382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3375CB701F893AD800D18382 /* Assets.xcassets */; };
 		3375CB741F893AD800D18382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3375CB721F893AD800D18382 /* LaunchScreen.storyboard */; };
+		3375CB7C1F8946A500D18382 /* WellcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB7B1F8946A500D18382 /* WellcomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3375CB701F893AD800D18382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3375CB731F893AD800D18382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3375CB751F893AD800D18382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3375CB7B1F8946A500D18382 /* WellcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3375CB691F893AD800D18382 /* AppDelegate.swift */,
 				3375CB6B1F893AD800D18382 /* ViewController.swift */,
+				3375CB7B1F8946A500D18382 /* WellcomeVC.swift */,
 				3375CB6D1F893AD800D18382 /* Main.storyboard */,
 				3375CB701F893AD800D18382 /* Assets.xcassets */,
 				3375CB721F893AD800D18382 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				3375CB6C1F893AD800D18382 /* ViewController.swift in Sources */,
 				3375CB6A1F893AD800D18382 /* AppDelegate.swift in Sources */,
+				3375CB7C1F8946A500D18382 /* WellcomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
