@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3375CB6A1F893AD800D18382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB691F893AD800D18382 /* AppDelegate.swift */; };
-		3375CB6C1F893AD800D18382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB6B1F893AD800D18382 /* ViewController.swift */; };
 		3375CB6F1F893AD800D18382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3375CB6D1F893AD800D18382 /* Main.storyboard */; };
 		3375CB711F893AD800D18382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3375CB701F893AD800D18382 /* Assets.xcassets */; };
 		3375CB741F893AD800D18382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3375CB721F893AD800D18382 /* LaunchScreen.storyboard */; };
-		3375CB7C1F8946A500D18382 /* WellcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB7B1F8946A500D18382 /* WellcomeVC.swift */; };
+		3375CB831F8ACCB400D18382 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB821F8ACCB400D18382 /* Movie.swift */; };
+		3375CB861F8ACE6500D18382 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB851F8ACE6500D18382 /* Reusable.swift */; };
+		3383D4D71F8ADFB80050F239 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB811F8ACC8200D18382 /* Model.swift */; };
+		3383D4D81F8AE1490050F239 /* WellcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB7F1F8ACC6100D18382 /* WellcomeVC.swift */; };
+		3383D4D91F8AE1490050F239 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375CB7E1F8ACC6100D18382 /* MainViewController.swift */; };
+		3383D4DB1F8AE43A0050F239 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383D4DA1F8AE43A0050F239 /* AppRouter.swift */; };
+		3383D4DD1F8AED900050F239 /* TVShowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383D4DC1F8AED900050F239 /* TVShowsVC.swift */; };
+		3383D4DF1F8AEDA50050F239 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383D4DE1F8AEDA50050F239 /* FavoritesVC.swift */; };
+		3383D4E11F8AEDBE0050F239 /* Watchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383D4E01F8AEDBE0050F239 /* Watchlist.swift */; };
+		3383D4E51F8AEE6A0050F239 /* TVShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383D4E31F8AEE6A0050F239 /* TVShowCell.swift */; };
+		3383D4E61F8AEE6A0050F239 /* TVShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3383D4E41F8AEE6A0050F239 /* TVShowCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3375CB661F893AD800D18382 /* TVMazeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVMazeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3375CB691F893AD800D18382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3375CB6B1F893AD800D18382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3375CB6E1F893AD800D18382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3375CB701F893AD800D18382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3375CB731F893AD800D18382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3375CB751F893AD800D18382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3375CB7B1F8946A500D18382 /* WellcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeVC.swift; sourceTree = "<group>"; };
+		3375CB7E1F8ACC6100D18382 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3375CB7F1F8ACC6100D18382 /* WellcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeVC.swift; sourceTree = "<group>"; };
+		3375CB811F8ACC8200D18382 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3375CB821F8ACCB400D18382 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3375CB851F8ACE6500D18382 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		3383D4DA1F8AE43A0050F239 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		3383D4DC1F8AED900050F239 /* TVShowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsVC.swift; sourceTree = "<group>"; };
+		3383D4DE1F8AEDA50050F239 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		3383D4E01F8AEDBE0050F239 /* Watchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watchlist.swift; sourceTree = "<group>"; };
+		3383D4E31F8AEE6A0050F239 /* TVShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowCell.swift; sourceTree = "<group>"; };
+		3383D4E41F8AEE6A0050F239 /* TVShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVShowCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		3375CB681F893AD800D18382 /* TVMazeApp */ = {
 			isa = PBXGroup;
 			children = (
-				3375CB691F893AD800D18382 /* AppDelegate.swift */,
-				3375CB6B1F893AD800D18382 /* ViewController.swift */,
-				3375CB7B1F8946A500D18382 /* WellcomeVC.swift */,
 				3375CB6D1F893AD800D18382 /* Main.storyboard */,
+				3383D4DA1F8AE43A0050F239 /* AppRouter.swift */,
+				3375CB801F8ACC8200D18382 /* Model */,
+				3375CB7D1F8ACC6100D18382 /* ViewControllers */,
+				3383D4E21F8AEE2F0050F239 /* Cells */,
+				3375CB841F8ACDB300D18382 /* Protocols */,
 				3375CB701F893AD800D18382 /* Assets.xcassets */,
 				3375CB721F893AD800D18382 /* LaunchScreen.storyboard */,
 				3375CB751F893AD800D18382 /* Info.plist */,
 			);
 			path = TVMazeApp;
+			sourceTree = "<group>";
+		};
+		3375CB7D1F8ACC6100D18382 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3375CB7F1F8ACC6100D18382 /* WellcomeVC.swift */,
+				3375CB7E1F8ACC6100D18382 /* MainViewController.swift */,
+				3383D4DC1F8AED900050F239 /* TVShowsVC.swift */,
+				3383D4DE1F8AEDA50050F239 /* FavoritesVC.swift */,
+				3383D4E01F8AEDBE0050F239 /* Watchlist.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3375CB801F8ACC8200D18382 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3375CB811F8ACC8200D18382 /* Model.swift */,
+				3375CB821F8ACCB400D18382 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3375CB841F8ACDB300D18382 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3375CB851F8ACE6500D18382 /* Reusable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3383D4E21F8AEE2F0050F239 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3383D4E31F8AEE6A0050F239 /* TVShowCell.swift */,
+				3383D4E41F8AEE6A0050F239 /* TVShowCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +155,7 @@
 				TargetAttributes = {
 					3375CB651F893AD800D18382 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +185,7 @@
 			files = (
 				3375CB741F893AD800D18382 /* LaunchScreen.storyboard in Resources */,
 				3375CB711F893AD800D18382 /* Assets.xcassets in Resources */,
+				3383D4E61F8AEE6A0050F239 /* TVShowCell.xib in Resources */,
 				3375CB6F1F893AD800D18382 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,9 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3375CB6C1F893AD800D18382 /* ViewController.swift in Sources */,
-				3375CB6A1F893AD800D18382 /* AppDelegate.swift in Sources */,
-				3375CB7C1F8946A500D18382 /* WellcomeVC.swift in Sources */,
+				3383D4DF1F8AEDA50050F239 /* FavoritesVC.swift in Sources */,
+				3383D4D81F8AE1490050F239 /* WellcomeVC.swift in Sources */,
+				3383D4DD1F8AED900050F239 /* TVShowsVC.swift in Sources */,
+				3383D4D91F8AE1490050F239 /* MainViewController.swift in Sources */,
+				3383D4E51F8AEE6A0050F239 /* TVShowCell.swift in Sources */,
+				3383D4D71F8ADFB80050F239 /* Model.swift in Sources */,
+				3375CB861F8ACE6500D18382 /* Reusable.swift in Sources */,
+				3383D4DB1F8AE43A0050F239 /* AppRouter.swift in Sources */,
+				3375CB831F8ACCB400D18382 /* Movie.swift in Sources */,
+				3383D4E11F8AEDBE0050F239 /* Watchlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +343,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29469R775X;
 				INFOPLIST_FILE = TVMazeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriantabirta.TVMazeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,14 +361,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29469R775X;
 				INFOPLIST_FILE = TVMazeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adriantabirta.TVMazeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

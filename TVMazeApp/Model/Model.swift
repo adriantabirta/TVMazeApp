@@ -8,14 +8,38 @@
 
 import UIKit
 
+//
+//int main(int argc, char* argv[])
+//{
+//	@autoreleasepool {
+//		int retVal = UIApplicationMain(argc, argv, nil, @"Model");
+//		return retVal;
+//	}
+//}
+
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+final class Model: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
+	lazy var router = AppRouter()
 
-
+	fileprivate lazy var rootNavigationController = Model.shared.window!.rootViewController as! UINavigationController
+	
+//	let rootNavigationController: UINavigationController = {
+//		let nc = Model.shared.window!.rootViewController as! UINavigationController
+//		return nc
+//	}()
+	
+	var isSome: Bool {
+		return false
+	}
+	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
+		_ = Model.shared.isSome
+
+		Model.shared.router.startWelcomeTourScreen()
 		return true
 	}
 
@@ -40,7 +64,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func applicationWillTerminate(_ application: UIApplication) {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
+}
 
-
+extension Model {
+	
+	static var shared: Model {
+		if let model = UIApplication.shared.delegate as? Model {
+			return model
+		} else {
+			fatalError("Model is not a application delegate")
+		}
+	}
+	
+	func show(_ vc: UIViewController, animated: Bool) {
+		rootNavigationController.setViewControllers([vc], animated: animated)
+	}
+	
 }
 
